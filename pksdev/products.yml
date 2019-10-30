@@ -1,0 +1,13 @@
+products:
+  opsman:
+    product-version: "2.7.0"
+    pivnet-product-slug: ops-manager
+    pivnet-api-token: ((pivnet_token))
+    pivnet-file-glob: "*aws*.yml"
+
+  pivotal-container-service:
+    product-version: "1.5.0"
+    pivnet-product-slug: pivotal-container-service
+    pivnet-api-token: ((pivnet_token))
+    pivnet-file-glob: "pivotal-container-service-*.pivotal"
+    stemcell-iaas: aws

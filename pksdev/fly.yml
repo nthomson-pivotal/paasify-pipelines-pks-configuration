@@ -1,0 +1,6 @@
+env_name: pksdev
+iaas: aws
+region: us-west-2
+dns_suffix: aws.paasify.org
+
+configuration_source: git@github.com:nthomson-pivotal/paasify-pipelines-pks-configuration.git
